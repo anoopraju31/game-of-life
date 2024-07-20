@@ -1,6 +1,6 @@
 import { type FC } from 'react'
+import { type Grid } from '@/app/_hooks/useGame'
 import BoardRow from './boardRow'
-import { Grid } from '@/lib/utills'
 
 type Props = {
 	grid: Grid

@@ -37,12 +37,12 @@ const GameControls: FC<Props> = ({
 
 			<div className='mt-10 flex flex-wrap gap-4'>
 				<div className='flex items-center gap-2'>
-					<div className='w-5 h-5 bg-red-500'></div>
+					<div className='w-5 h-5 bg-red-600'></div>
 					<p> Dead Cell </p>
 				</div>
 
 				<div className='flex items-center gap-2'>
-					<div className='w-5 h-5 bg-green-500'></div>
+					<div className='w-5 h-5 bg-green-600'></div>
 					<p> living Cell </p>
 				</div>
 			</div>
