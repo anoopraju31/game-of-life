@@ -20,6 +20,18 @@ const GameControls: FC<Props> = ({
 				<h1 className='text-center tracking-tighter text-3xl xl:text-4xl font-extrabold font-mono'>
 					Conway&apos;s Game of Life
 				</h1>
+
+				<div className='mt-4 '>
+					<p className='text-center'>
+						Developed By
+						<a
+							className='ml-0.5 underline'
+							target='_blank'
+							href='https://www.anoopraju.xyz/'>
+							Anoop Raju
+						</a>
+					</p>
+				</div>
 			</div>
 
 			<div className='flex gap-4 flex-wrap h-full'>
